@@ -9,7 +9,7 @@ Q1)
 	 • The type Object, if C is an interface type with no direct superinterfaces (§9.1.3)
 
  	In this instance the program does not have a type error, but a scope error.
-	You should comment out statement 2 without producing any errors. Without any compiler errors, it outpus nothing, but if you remove the static scope from
+	You should comment out statement 2 without producing any errors. Without any compiler errors, it outputs nothing, but if you remove the static scope from
 	T_1000, make the class static, and uncomment statement 2 is shoud output:
 	"Come with me if you want to have fun." You would want to comment statement 2 because the class T_1000 is in a static scope. The class itself
 	will not be initialized because any variables or changes made in that scope cannot be used outside of it.
